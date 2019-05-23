@@ -70,11 +70,9 @@ img{
     padding-top: 4.5em;
 }
 
-
-p.email {
-    padding-bottom: 2em;
+p.phone{
+    padding-bottom: 0;
 }
-
 
 /* Media Queries */
 @media screen and (min-width: 768px){

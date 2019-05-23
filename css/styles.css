@@ -4,7 +4,6 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    padding: 0;
     text-align: center;
 }
 
@@ -41,8 +40,7 @@ a {
 }
 
 h3{
-    padding-top: .75em;
-    padding-bottom: .25em;
+    padding: 2em;
     text-transform: uppercase;
 }   
 
@@ -60,9 +58,9 @@ img{
 
 .intro{
     padding-top: 3.5em;
-    padding-bottom: 1em;
     color: grey;
 }
+
 
 .top{
     text-transform: uppercase;

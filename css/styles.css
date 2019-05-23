@@ -16,7 +16,9 @@ ul{
 li{
     text-transform: uppercase;
     padding: .7em;
+    font-size: 125%;
 }
+
 
 a {
     text-decoration: none;
@@ -31,7 +33,9 @@ h3{
 
 p{
     padding-bottom: 2em;
-
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 150%;
 }
 
 img{
@@ -45,6 +49,7 @@ img{
 .intro{
     padding-top: 3.5em;
     padding-bottom: 1em;
+    color: grey;
 }
 
 

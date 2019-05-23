@@ -1,10 +1,23 @@
 
-/* Element Styles */
+/* Styles */
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+header, footer, div {
+   background: #f9f9f9; 
+
+}
+
+h1{
+    margin: 0;  
+    padding: .5em;
+    font-size:250%;
+
 }
 
 ul{
@@ -16,7 +29,9 @@ ul{
 li{
     text-transform: uppercase;
     padding: .7em;
+    margin: 10px;
     font-size: 125%;
+    background: #fff;
 }
 
 
@@ -36,23 +51,31 @@ p{
     padding-left: 1em;
     padding-right: 1em;
     font-size: 150%;
+    color: grey;
 }
 
 img{
     max-width: 90%;
 }
 
-/* Class Selectors */
-.header{
-    
-}
 .intro{
     padding-top: 3.5em;
     padding-bottom: 1em;
     color: grey;
 }
 
+.top{
+    text-transform: uppercase;
+}
 
+.contact{
+    padding-top: 4.5em;
+}
+
+
+p.email {
+    padding-bottom: 2em;
+}
 
 
 /* Media Queries */

@@ -52,7 +52,7 @@ p{
     padding-bottom: 2em;
     padding-left: 1em;
     padding-right: 1em;
-    font-size: 125%;
+    font-size: 140%;
     color: grey;
 }
 
@@ -64,10 +64,17 @@ hr {
     width: 80%;
 }
 
+
 .intro{
     padding-top: 3.5em;
 }
 
+.footer p, a{
+    display: inline-block;
+    padding: 2em;
+    margin: 0;
+
+}
 
 .top{
     text-transform: uppercase;

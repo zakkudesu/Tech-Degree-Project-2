@@ -35,7 +35,13 @@ li{
 }
 
 
-a {
+
+li a { 
+    display: block; 
+    padding: .8em;
+}
+
+a{
     text-decoration: none;
     color: black;
 }
@@ -92,9 +98,11 @@ hr {
     padding-bottom: 1em;
 }
 
-p.phone{
+.phone, .email{
     padding-bottom: 0;
+    color: black;
 }
+
 
 /* Media Queries */
 @media screen and (min-width: 768px){

@@ -22,7 +22,7 @@ h1{
 ul{
     list-style-type:none;
     padding: 0;
-    margin: 0;
+    margin: 12px;
 }
 
 li{
@@ -54,6 +54,7 @@ p{
     padding-right: 1em;
     font-size: 140%;
     color: grey;
+    
 }
 
 img{
@@ -62,6 +63,8 @@ img{
 
 hr {
     width: 80%;
+    margin-bottom: 0%;
+    
 }
 
 
@@ -69,11 +72,14 @@ hr {
     padding-top: 3.5em;
 }
 
+
 .footer p {
     display: inline-block;
-    padding: 2em;
     margin: 0;
-
+    padding-left: 0;
+    padding-right: 40%;
+    padding-top: 1em;
+    color: black;
 }
 
 .top{

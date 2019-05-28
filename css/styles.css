@@ -62,7 +62,7 @@ img{
 }
 
 hr {
-    width: 80%;
+    width: 85%;
     margin-bottom: 0%;
     
 }
@@ -77,9 +77,10 @@ hr {
     display: inline-block;
     margin: 0;
     padding-left: 0;
-    padding-right: 40%;
+    padding-right: 35%;
     padding-top: 1em;
     color: black;
+    text-emphasis: bold;
 }
 
 .top{
@@ -88,6 +89,7 @@ hr {
 
 .contact{
     padding-top: 4.5em;
+    padding-bottom: 1em;
 }
 
 p.phone{

@@ -31,6 +31,7 @@ li{
     margin: 10px;
     font-size: 125%;
     background: #fff;
+    font-weight: bold;
 }
 
 
@@ -39,16 +40,19 @@ a {
     color: black;
 }
 
+
 h3{
     padding: 2em;
     text-transform: uppercase;
+    font-weight: bold;
+
 }   
 
 p{
     padding-bottom: 2em;
     padding-left: 1em;
     padding-right: 1em;
-    font-size: 150%;
+    font-size: 125%;
     color: grey;
 }
 
@@ -56,9 +60,12 @@ img{
     max-width: 90%;
 }
 
+hr {
+    width: 80%;
+}
+
 .intro{
     padding-top: 3.5em;
-    color: grey;
 }
 
 

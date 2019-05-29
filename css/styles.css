@@ -122,12 +122,14 @@ hr {
     .container{
         display: flex;
         align-items: auto;
+        align-content: space-around;
     }
 
     .item{
         flex: auto;
         flex-wrap: wrap;
-        /* align-self: flex-start; */
+        
+        
     }
 
 }

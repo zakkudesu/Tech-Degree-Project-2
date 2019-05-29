@@ -119,9 +119,14 @@ hr {
         margin-right: 5%;
     }
 
+    .row {
+		display: flex;
+	}
+
     .content{
-        display: inline-flexbox;
+        display: flex;
     }
+
 
 }
 

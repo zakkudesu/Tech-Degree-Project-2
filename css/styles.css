@@ -119,13 +119,15 @@ hr {
         margin-right: 5%;
     }
 
-    .row {
-		display: flex;
-	}
 
     .content{
         display: flex;
     }
+
+    .row {
+        display: flex;
+        align-items: flex-start;
+	}
 
 
 }

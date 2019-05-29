@@ -122,12 +122,24 @@ hr {
         margin-left: 10%;
         margin-right: 5%;
     }
- 
-     .container{
-        display: flex;
-        align-items: auto;
+
+    .container{
+        display: inline-block;
     }
 
+    #col1{
+        float: left;
+        width: 500px;
+    }
+
+    #col2{
+        float: right;
+        width: 500px;
+    }
+
+    #marketingimg{
+        padding-bottom: .1%;
+    }
 
 }
 

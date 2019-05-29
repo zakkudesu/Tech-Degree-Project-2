@@ -79,6 +79,7 @@ hr {
 }
 
 
+
 .footer p {
     display: inline-block;
     margin: 0;
@@ -111,10 +112,16 @@ hr {
         padding: 0;
         background: #f9f9f9;
     }
-    .intro{
-        display: inline-flex;
+
+    .profilePic{
+        float: right;
+        margin-left: 10%;
+        margin-right: 5%;
     }
 
+    .content{
+        display: inline-flexbox;
+    }
 
 }
 

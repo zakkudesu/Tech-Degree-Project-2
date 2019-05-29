@@ -113,11 +113,16 @@ hr {
         background: #f9f9f9;
     }
 
+    header{
+        display: inline-block;
+    }
+
     .profilePic{
         float: right;
         margin-left: 10%;
         margin-right: 5%;
     }
+
 
     .container{
         display: flex;
@@ -131,6 +136,7 @@ hr {
         
         
     }
+
 
 }
 

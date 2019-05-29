@@ -122,19 +122,10 @@ hr {
         margin-left: 10%;
         margin-right: 5%;
     }
-
-
-    .container{
+ 
+     .container{
         display: flex;
         align-items: auto;
-        align-content: space-around;
-    }
-
-    .item{
-        flex: auto;
-        flex-wrap: wrap;
-        
-        
     }
 
 

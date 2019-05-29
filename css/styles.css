@@ -59,8 +59,10 @@ a:hover{
 
 h3{
     padding: 2em;
+    margin-top: auto;
     text-transform: uppercase;
     font-weight: bold;
+    color: #535353;
 }   
 
 p{

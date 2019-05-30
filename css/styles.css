@@ -214,6 +214,8 @@ li{
 } 
 
 @media screen and (min-width: 1024px){
-
+    .main-nav{
+        display: flex;
+    }
 
 }

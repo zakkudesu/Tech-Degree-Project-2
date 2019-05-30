@@ -1,5 +1,5 @@
 
-/* Styles */
+/* Basic Styles */
 *{
     background:#f7f6ecee;
 }
@@ -140,6 +140,7 @@ li{
 
 
 /* Media Queries */
+
 @media screen and (min-width: 768px){
     .main-nav li{
         display: inline-flex;

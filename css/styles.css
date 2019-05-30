@@ -128,7 +128,7 @@ hr {
     color: black;
 }
 
-#tablet{
+.tablet{
     display: none;
 }
 
@@ -154,6 +154,7 @@ li{
     }
 
     header{
+        padding-top:1em;
         display: inline-block;
     }
 
@@ -202,19 +203,14 @@ li{
     #mobile {
         display: none;
     }
-    
-    footer #tablet {
-        display:  flex;
-        justify-content: space-between;
-        padding-top: 2em;
-        margin-bottom: 1em;
-        min-width: 100%;
-       
+
+    .tablet{
+        display: inline-flex;
     }
 
-    .push {
-        margin-right: auto;
-    } 
+    footer{
+        display: inline;
+    }
 
 
     .desktop{
@@ -226,7 +222,7 @@ li{
 @media screen and (min-width: 1024px){
     .main-nav{
         display: flex;
-        align-items: center; 
+        align-items: baseline; 
        
     }
 
@@ -234,6 +230,10 @@ li{
         font-size: 3em;
         margin-right: auto;
         margin-left: 1.5em;
+    }
+
+    p{
+        margin-right: auto;
     }
 
     .profilePic{

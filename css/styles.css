@@ -92,7 +92,7 @@ hr {
 
 
 
-.footer p {
+.footer span {
     display: inline-block;
     margin: 0;
     padding-left: 0;
@@ -116,9 +116,10 @@ hr {
     color: black;
 }
 
-.tabletFooter{
+#tablet{
     display: none;
 }
+
 
 
 /* Media Queries */
@@ -131,6 +132,10 @@ hr {
 
     header{
         display: inline-block;
+    }
+
+    a{
+        text-transform: uppercase;
     }
 
     .objective{
@@ -164,11 +169,24 @@ hr {
 
     .bottom{
         margin: 10%;
+    }
+    
+    #mobile {
+        display: none;
+    }
+    
+    footer #tablet {
+        display:  flex;
+        justify-content: auto;
+        align-items: center;
+       
+    }
 
+    .footeritem{
+        flex: auto;
+    }
 
-
-
-}
+} 
 
 @media screen and (min-width: 1024px){
 

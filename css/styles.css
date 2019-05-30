@@ -20,8 +20,9 @@ h1 {
 h1{
     margin: 0; 
     padding-top: .5em;
-    font-size: 4.5em;
+    font-size: 3em;
     font-family: 'Abril Fatface', cursive;
+    padding-bottom: 1em;
     
 
 }
@@ -228,5 +229,13 @@ li{
 
     .profilePic{
         width: 45%;
+    }
+
+    .containerTablet{
+        display: none;
+    }
+
+    #tablet{
+        margin-bottom: 1em;
     }
 }

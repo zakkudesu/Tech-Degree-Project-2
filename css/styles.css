@@ -2,11 +2,15 @@
 /* Basic Styles */
 *{
     background:#f7f6ecee;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
+    margin: 0 auto;
+    max-width: 1024px;
+      }
 }
 
 header,
@@ -27,7 +31,8 @@ h1{
 
 }
 
-h3{
+h3,
+#myname{
     font-family: 'Abril Fatface', cursive; 
 }
 
@@ -126,9 +131,6 @@ hr {
     color: black;
 }
 
-.tablet{
-    display: none;
-}
 
 .footerName,
 li{

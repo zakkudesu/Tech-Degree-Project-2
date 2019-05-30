@@ -219,6 +219,11 @@ li{
         align-items: center; 
        
     }
-    
+
+    h1{
+        font-size: 3em;
+        margin-right: auto;
+        margin-left: 1.5em;
+    }
 
 }

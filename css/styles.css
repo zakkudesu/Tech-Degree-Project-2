@@ -226,4 +226,7 @@ li{
         margin-left: 1.5em;
     }
 
+    .profilePic{
+        width: 45%;
+    }
 }

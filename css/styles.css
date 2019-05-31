@@ -131,13 +131,17 @@ hr {
 }
 
 
-.footerName,
 li{
     font-family: 'Abril Fatface', cursive;
     text-transform: uppercase;
+    font-size: small;
 }
 
 .desktop{
+    display: none;
+}
+
+.tablet{
     display: none;
 }
 
@@ -204,7 +208,7 @@ li{
     }
 
     .tablet{
-        display: inline-flex;
+        display: flex;
     }
 
 

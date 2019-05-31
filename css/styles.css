@@ -22,7 +22,7 @@ h1 {
 
 h1{
     margin: 0; 
-    padding-top: .5em;
+    padding: .5em;
     font-size: 3em;
     font-family: 'Abril Fatface', cursive;
     padding-bottom: 1em;
@@ -31,7 +31,8 @@ h1{
 }
 
 h3,
-#myname{
+#myname,
+.footerName {
     font-family: 'Abril Fatface', cursive; 
 }
 
@@ -226,7 +227,7 @@ li{
     .foot-nav{
         display: flex;
         background: #f7f6ecee;
-        margin-left: 15%
+        margin-left: 5%
     }
 
     hr{
@@ -272,7 +273,7 @@ li{
 
     .foot-nav{
         align-items: baseline;
-        margin-left: 40%;
+        margin-left: 25%;
         
     }
 
